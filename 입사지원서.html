@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입사지원서 만들기</title>
+</head>
+
+<body>
+    <h1>입사 지원서</h1>
+    <h2>필수 정보</h2>
+    <form action="#">
+        <div>
+            <label for="name">이름</label>
+            <input type="text" id="name" value="홍길동">
+        </div>
+        <div>
+            <label for="birthdate">생년월일</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div>
+            <label for="gender">성별</label>
+            <select name="gender" id="gender">
+                <option value="male">남자</option>
+                <option value="female">여자</option>
+            </select>
+        </div>
+        <h2>개발자는 왜?</h2>
+        <div>
+            <label for="message">메세지</label>
+            <textarea name="message" id="" cols="30" rows="1"></textarea>
+        </div>
+        <h2>사용해본 것들</h2>
+        <div>
+            <div><label for=""></label></div>
+            <div><input type="checkbox">java</div>
+            <div><input type="checkbox">python</div>
+            <div><input type="checkbox">html/css</div>
+            <div><input type="checkbox">js</div>
+            <div><input type="checkbox">bootstrap</div>
+            <div><input type="checkbox">SQL</div>
+        </div>
+        <h2>희망 부서</h2>
+        <div>
+            <label for=""></label>
+            <div><input type="radio">프론트엔드</div>
+            <div><input type="radio">백엔드</div>
+            <div><input type="radio">DB</div>
+        </div>
+        <br>
+        <button type="submit">보내기</button>
+        <input type="submit" value="전송">
+        <button type="reset">리셋</button>
+
+    </form>
+
+</body>
+
+</html>
